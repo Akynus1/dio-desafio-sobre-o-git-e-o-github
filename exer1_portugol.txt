@@ -1,0 +1,28 @@
+Portugol
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real mes1,mes2,mes3,mes4,total,media
+		cadeia vendedor
+		
+		escreva("Digite o nome do Vendedor ")
+		leia (vendedor)
+		escreva(" Valor mes Janeiro ")
+		leia(mes1)
+		escreva(" Valor mes Fevereiro ")
+		leia(mes2)
+		escreva(" Valor mes Março ")
+		leia(mes3)
+		escreva(" Valor mes Abril ")
+		leia(mes4)
+		total= (mes1+mes2+mes3+mes4)
+		media = (mes1+mes2+mes3+mes4)/4
+		escreva("O vendedor " + vendedor + ", totalizou em R$"+total+
+		" de vendas no periodo de Janeiro a Abril, perfazendo com a media de R$"+
+		media+ " de vendas.") 
+		
+	}
+}

@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Ecolha uma das opções: 1 = Abrir Netflix 2 = Abrir"+
+		"Amazon 3 = Abrir HBO 4 = Sair da Programação")
+	inteiro menu=0
+		escreva("\n" + "Sua opção: ")
+		leia (menu)
+	escolha (menu)
+	{
+		caso 1:
+		escreva( "Abrir Netflix")
+		pare
+
+		caso 2:
+		escreva( "Abrir Amazon")
+		pare
+	
+		caso 3:
+		escreva( "Abrir HBO")
+		pare
+		
+		caso 4:
+		escreva( "Sair do programa")
+		pare
+
+		caso contrario:
+		escreva("Escolher as opções 1, 2 , 3 ou 4")
+	}
+	}
+}

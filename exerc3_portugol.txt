@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador=0
+		cadeia clientes[][]={{"João","São Paulo","(11) 9999-5241"},
+						   {"Maria"," Ribeirão Preto"," (16) 9999-8596"},
+						   {"Ana"," Manaus", "92-99998574"}}
+		faca{
+
+			escreva (" Cliente: " + clientes[contador][0] + " - Estado: " + clientes[contador][1] + " - Celular: " + clientes[contador][2] +"\n" )
+			contador++
+		} 
+		enquanto (contador<=2)
+		
+		}
+		
+}
